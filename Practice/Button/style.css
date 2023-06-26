@@ -1,0 +1,40 @@
+.container {
+	position: absolute;
+	left: 80px;
+}
+
+#btn {
+	border-radius: 20px;
+	display: block;
+	height: 30px;
+	width: 150px;
+	margin: 10px 0px 10px;
+	border: 2px solid #7dc8c8;
+	color: #7dc8c8;
+	background-color: #fff;
+	font-weight: 700;
+}
+
+#btn1 {
+	border-radius: 50%;
+	display: block;
+	height: 40px;
+	width: 40px;
+	margin: 0px 0px 10px;
+	border: none;
+    color: #fff;
+	background-color: #00d1b2;
+	font-size: x-large;
+
+}
+
+#btn2 {
+	display: block;
+	height: 40px;
+	width: 200px;
+	margin: 0px 0px 10px;
+    border: 2px solid #000;
+    color: #fff;
+	background-color: #2b78e4;
+	box-shadow: 3px 3px 3px #000;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resgistration Form</title>
+</head>
+<body>
+	<h1>Resgistration Form</h1>
+	<form>
+		<div>
+			<label for="userName">First Name:</label>
+			<input type="text" name="nameUser" id="userName">
+		</div>
+		<div>
+			<label for="userNameLast">Last Name:</label>
+			<input type="text" name="nameUserLast" id="userNameLast">
+		</div>
+		<div>
+			<label for="userEmail">Email Address:</label>
+			<input type="email" name="emailUser" id="userEmail">
+		</div>
+		<div>
+			<label for="userPassword">Passaword:</label>
+			<input type="password" name="passwordUser" id="userPassword">
+		</div>
+		<div>
+			<label for="confirmUser">Confirm Passaword:</label>
+			<input type="password" name="passwordConfirm" id="confirmUser">
+		</div>
+		<div>
+			<label for="userBirthday">Birthday:</label>
+			<input type="date" name="userDay" id="userBirthday">
+		</div>
+		<p>Gender Identify:</p>
+		<div>
+			<input type="radio" name="userGender" id="userMale">
+			<label for="userMale">Male</label>
+			<input type="radio" name="userGender" id="userFemale">
+			<label for="userFemale">Female</label>
+			<input type="radio" name="userGender" id="userBinary">
+			<label for="userBinary">Non-binary</label>
+			<input type="radio" name="userGender" id="userNot">
+			<label for="userNot">I prefer not to answer</label>
+		</div>
+		<p>A short description about myself:</p>
+		<textarea name="userDescription" id="descriptionUser" cols="30" rows="2"></textarea>
+		<div>
+			<label for="userLanguage">Favorite Language:</label>
+			<select name="language" id="userLanguage">
+				<option value="HTML">HTML</option>
+				<option value="CSS">CSS</option>
+				<option value="JavaScript">JavaScript</option>
+			</select>
+		</div>
+		<div>
+			<input type="checkbox" name="userAccept" id="acceptUser">
+			<label for="acceptUser">Yes, I would like to receive periodic email updates</label>
+		</div>
+		<input type="submit" value="Create Account">
+		<p>* Indicates a required</p>
+	</form>
+</body>
+</html>
